@@ -1,3 +1,6 @@
+body {
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto", "Oxygen", "Ubuntu", "Cantarell", 'Open Sans', 'Helvetica Neue', "sans-serif";
+}
 .MENU {
     position: fixed;
     width: 60px;
@@ -23,7 +26,6 @@
     font-weight: bold;
     text-align: center;
     user-select:none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: relative;
     font-size: 60px;
     margin-top: 10%;
@@ -45,7 +47,6 @@
     z-index: 15;
 }
 .LIMENU{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: block;
     background: #6b48a4;
     margin: 0px;
@@ -56,7 +57,6 @@
 
 .BOTON{
     background-color: #6b48a4;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     border-color: transparent;
     font-size:bold;
     cursor: pointer;
@@ -74,7 +74,7 @@ border-color: transparent;
 
 .FOTOPRODUCTO {
     position: fixed;
-    background-color: grey;
+    background-color: rgb(188, 179, 179);;
     border-radius: 10px;
     top:20%;
     left: 6%;
@@ -91,7 +91,6 @@ border-color: transparent;
     background-color: rgb(188, 179, 179);
     border-radius: 25px;
     border-color: transparent;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     z-index: 5;
 
@@ -108,7 +107,6 @@ border-color: transparent;
 }
 
 .PRODUCTNAME{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     color: white;
     font-size: 40px;
@@ -119,17 +117,69 @@ border-color: transparent;
 }
 
 .PRODUCTDESCRIPTION{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
+    font-weight: lighter;
     color: white;
     font-size: 20px;
     position: fixed;
-    top: 26%;
+    top: 29%;
     float: initial;
     z-index: 10;
+    left: 33%;
+    right: 33%;
+}
+
+.NEGRO{
+        border-radius: 90px;
+        background-color: black;
+        height: 40px;
+        width: 40px;
+        border: 3px;
+        border-style: solid;
+        position: fixed;
+        top: 50%;
+        left: 33%;
+        cursor: pointer;
+        border-color: rgb(188, 179, 179);;
+}
+
+.BLANCO{
+    border-radius: 90px;
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+    width: 40px;
+    border: 3px;
+    border-style: solid;
+    position: fixed;
+    top: 50%;
+    left: 37%;
+    cursor: pointer;
+    border-color: rgb(188, 179, 179);;
+}
+
+h3{ 
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto", "Oxygen", "Ubuntu", "Cantarell", 'Open Sans', 'Helvetica Neue', "sans-serif";
+    background-color: rgb(188, 179, 179);
+    width: 600px;
+    top: 65%;
+    position: fixed;
+    left: 32%;
+    border-radius: 30px;
+    height: 150px;
+    padding: 10px;
+     
 
 
-
-
-
+}
+.BUY { 
+    width: 12%;
+    background-color: #6b48a4;
+    border: transparent;
+    border-radius: 18px;
+    top: 69%;
+    position: fixed;
+    left: 65%;
+    height: 6%;
+    font-weight: 900;
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto", "Oxygen", "Ubuntu", "Cantarell", 'Open Sans', 'Helvetica Neue', "sans-serif";
+    font-size: 19px
 }

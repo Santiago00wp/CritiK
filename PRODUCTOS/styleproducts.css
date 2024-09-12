@@ -1,17 +1,17 @@
-
 .MENU {
     position: fixed;
     width: 60px;
     height: 60px;
-    left: 10%;
+    left: 2%;
+    z-index: 15;
 }
 .MENUIMPUT:checked  ~ .ULMENU{
     display:block;
 }
 .MENUIMPUT {
     display: none;
-    top: 5%;
-    left: 10%;
+    top: 4%;
+    left: 2%;
 }
 .LABELMENU {
     color: #6b48a4;
@@ -28,6 +28,7 @@
     font-size: 60px;
     margin-top: 10%;
     cursor: pointer;
+    z-index: 15;
 
 }
 .LABELMENU:hover{
@@ -41,7 +42,7 @@
     cursor: pointer;    
     padding:0px;
     width: 200px;
-    z-index: 10;
+    z-index: 15;
 }
 .LIMENU{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -50,7 +51,9 @@
     margin: 0px;
     padding: 10px;
     list-style: none;
+    z-index: 15;
 }
+
 .BOTON{
     background-color: #6b48a4;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -58,94 +61,75 @@
     font-size:bold;
     cursor: pointer;
 }
+
 .LOGO{
+position: fixed;
+height:55px;
+width:50px;
+top:3.5%;
+left: 8%;
+background-color: transparent;
+border-color: transparent;
+}
+
+.FOTOPRODUCTO {
     position: fixed;
-    width: 300px;
-    height: 300px;
-    top: 0%;
-    left: 37%
+    background-color: grey;
+    border-radius: 10px;
+    top:20%;
+    left: 6%;
+    height: 400px;
+    z-index: 4;
 }
-.IMGACC{
-height: 60px;
-width: 60px;
-top: 5%;
-right: 10%;
-}
-.LABELACC{
-    top: 5%;
-    right: 10%;
-    position: fixed;
-    background-color: rgb(0, 0, 0);
-    border-color:#000;
-    display: inline-block;
-    width: 60px;
-    height: 60px;
-    line-height: 65px;
-    font-weight: bold;
-    text-align: center;
-    user-select: none;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.ACCIMPUT {
-    background-color:transparent;
-    color: #000000;
-    width: 60px;
-    height: 60px;
-    position: fixed;
-    top: 5%;
-    right: 10%;
-    border-color: transparent;
-    border-radius: 5%;
-    cursor: pointer;
-}
+
 .Barra-de-busqueda{
     position: fixed;
-    top: 42%;
-    left: 32.8%;
-    width: 400px;
+    top: 5%;
+    right: 16.8%;
+    width: 200px;
     height: 30px;
     background-color: rgb(188, 179, 179);
     border-radius: 25px;
     border-color: transparent;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
-}
-.PRODUCTO1 {
-    background-color: rgb(188, 179, 179);
-    position: fixed;
-    width: 200px;
-    height: 260.365px;
-    left: 15%;
-    bottom: 2%;
-    border-radius: 10px;
+    z-index: 5;
+
 }
 
-.PRODUCTO2 {
-    background-color: rgb(188, 179, 179);
+.barrasuperior {
+    opacity: 20%;
+    width: 98%;
+    left: 1%;
     position: fixed;
-    width: 200px;
-    height: 260.365px;
-    left: 33%;
-    bottom: 2%;
-    border-radius: 10px;
+    height: 13%;
+    right: 1%;
+    z-index: -10;
 }
-.PRODUCTO3 {
-    background-color: rgb(188, 179, 179);
+
+.PRODUCTNAME{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
     position: fixed;
-    width: 200px;
-    height: 260.365px;
-    right: 33%;
-    bottom: 2%;
-    border-radius: 10px;
-    
+    top: 17%;
+    right: 50%;
+
 }
-.PRODUCTO4 {
-    background-color: rgb(188, 179, 179);
+
+.PRODUCTDESCRIPTION{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
     position: fixed;
-    width: 200px;
-    height: 260.365px;
-    right: 15%;
-    bottom: 2%;
-    border-radius: 10px;
-    
+    top: 26%;
+    float: initial;
+    z-index: 10;
+
+
+
+
+
 }

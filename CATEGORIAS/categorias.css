@@ -1,0 +1,242 @@
+body {
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto", "Oxygen", "Ubuntu", "Cantarell", 'Open Sans', 'Helvetica Neue', "sans-serif";
+}
+.MENU {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    left: 2%;
+    z-index: 15;
+}
+.MENUIMPUT:checked  ~ .ULMENU{
+    display:block;
+}
+.MENUIMPUT {
+    display: none;
+    top: 4%;
+    left: 2%;
+}
+.LABELMENU {
+    color: #6b48a4;
+    border-color: #000;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 65px;
+    font-weight: bold;
+    text-align: center;
+    user-select:none;
+    position: relative;
+    font-size: 60px;
+    margin-top: 10%;
+    cursor: pointer;
+    z-index: 15;
+}
+.LABELMENU:hover{
+    background:rgb(44, 42, 42);
+    border-radius: 10px
+}
+.ULMENU{
+    display: none;
+    position: relative; 
+    margin: 0; 
+    cursor: pointer;    
+    padding:0px;
+    width: 200px;
+    z-index: 15;
+}
+.LIMENU{
+    display: block;
+    background: #6b48a4;
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+    z-index: 15;
+}
+.BOTON{
+    background-color: #6b48a4;
+    border-color: transparent;
+    font-size:bold;
+    cursor: pointer;
+}
+.LOGO{
+    position: fixed;
+    height:55px;
+    width:50px;
+    top:3.5%;
+    left: 8%;
+    background-color: transparent;
+    border-color: transparent;
+}
+.Barra-de-busqueda{
+    position: fixed;
+    top: 5%;
+    right: 16.8%;
+    width: 200px;
+    height: 30px;
+    background-color: rgb(188, 179, 179);
+    border-radius: 25px;
+    border-color: transparent;
+    font-weight: bold;
+    z-index: 5;
+}
+.barrasuperior {
+    opacity: 20%;
+    width: 98%;
+    left: 1%;
+    position: fixed;
+    height: 13%;
+    right: 1%;
+    z-index: -10;
+}
+.Resultados{
+    font-weight: 500;
+    top: 16%;
+    position: fixed;
+    left: 3%;
+    color: lightgray;
+}
+.PRODUCTO1 {
+    background-color: rgb(188, 179, 179);
+    position: fixed;
+    width: 270px;
+    height: 320px;
+    left: 3%;
+    bottom: 17%;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.PRODUCTO1:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+.PRODUCTO2 {
+    background-color: rgb(188, 179, 179);
+    position: fixed;
+    width: 270px;
+    height: 320px;
+    left: 27%;
+    bottom: 17%;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.PRODUCTO2:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+.PRODUCTO3 {
+    background-color: rgb(188, 179, 179);
+    position: fixed;
+    width: 270px;
+    height: 320px;
+    right: 28%;
+    bottom: 17%;
+    border-radius: 10px;
+    border: transparent;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.PRODUCTO3FOTO:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+.PRODUCTO3FOTO {
+    background-color: rgb(188, 179, 179);
+    position: fixed;
+    width: 270px;
+    height: 320px;
+    right: 28%;
+    bottom: 17%;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.PRODUCTO4 {
+    background-color: rgb(188, 179, 179);
+    position: fixed;
+    width: 270px;
+    height: 320px;
+    right: 3%;
+    bottom: 17%;
+    border-radius: 10px;
+    border: transparent;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.PRODUCTO4FOTO:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
+}
+.PRODUCTO4FOTO {
+    background-color: rgb(188, 179, 179);
+    position: fixed;
+    width: 270px;
+    height: 320px;
+    right: 3%;
+    bottom: 17%;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.IMGACC{
+    height: 60px;
+    width: 60px;
+    top: 3%;
+    right: 10%;
+}
+.LABELACC{
+    top: 3%;
+    right: 10%;
+    position: fixed;
+    background-color: transparent;
+    border-color:#000;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 65px;
+    font-weight: bold;
+    text-align: center;
+    user-select: none;
+    font-family: "system-ui", "-apple-system", "BlinkMacSystemFont", 'Segoe UI', "Roboto", "Oxygen", "Ubuntu", "Cantarell", 'Open Sans', 'Helvetica Neue', "sans-serif";
+}
+    .ACCIMPUT {
+    background-color:transparent;
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    top: 3%;
+    right: 10%;
+    border-color: transparent;
+    border-radius: 5%;
+    cursor: pointer;
+}
+.PDTNAME1 {
+    left: 3%;
+    bottom: 8%;
+    position: fixed;
+    color: lightgray;
+
+}
+
+.PDTNAME2 {
+    left: 27%;
+    bottom: 8%;
+    position: fixed;
+    color: lightgray;
+}
+
+.PDTNAME3{
+    right: 40%;
+    bottom: 8%;
+    position: fixed;
+    color: lightgray;
+}
+
+.PDTNAME4 {
+    right: 13%;
+    bottom: 8%;
+    position: fixed;
+    color: lightgray;
+}
